@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
+
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
-
     <!-- Tailwind css -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Themify Icons -->
@@ -28,6 +29,99 @@
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Personal styling -->
+    <style>
+        .navbar-brand{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        .protection-plan li {
+            list-style-type: none;
+        }
+
+        .protection-plan-icon {
+            margin-left: -40px;
+        }
+
+        .section-title small {
+            color: #998a9b;
+        }
+
+        .ti-hand-point-right {
+            color: #633991;
+            font-size: 1.5rem;
+        }
+
+        .protection-plan {
+            margin-left: 34px;
+        }
+
+        .box {
+            animation-duration: 3s;
+            animation-iteration-count: infinite
+        }
+
+        .bounce {
+            animation-name: bounce;
+            animation-timing-function: linear;
+        }
+
+        .get-app-features li {
+            list-style: none;
+            /* margin-left: 400px; */
+
+        }
+
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            display: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            right: 15px;
+            bottom: 15px;
+            background: #1bac91;
+            color: #fff;
+            transition: display 0.5s ease-in-out;
+            z-index: 99999;
+        }
+
+        .back-to-top .ti-angle-up {
+            font-size: 24px;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            color: #fff;
+        }
+
+        .back-to-top:hover {
+            color: #fff;
+            background: #18967e;
+            transition: background 0.2s ease-in-out;
+        }
+
+        .img-fluid,
+        img {
+            display: initial;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -545,8 +639,8 @@
         <div class="container">
 
             <div class="section-title" data-aos="fade-up" data-aos-duration="3000">
-                    <small>TESTIMONIALS</small>
-                    <h3>Our Customers love what we do</h3>
+                <small>TESTIMONIALS</small>
+                <h3>Our Customers love what we do</h3>
             </div>
 
             <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-duration="3000">
@@ -565,7 +659,8 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the phone still being under warranty
+                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the
+                        phone still being under warranty
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <img src="images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -576,7 +671,8 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the phone still being under warranty
+                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the
+                        phone still being under warranty
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <img src="images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -587,7 +683,8 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the phone still being under warranty
+                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the
+                        phone still being under warranty
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <img src="images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -598,7 +695,8 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the phone still being under warranty
+                        The screen on my phone went completely blank. Cinchit replaced my phone at no cost due to the
+                        phone still being under warranty
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <img src="images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -1603,7 +1701,7 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
 
-    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <!-- Plugins JS -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- <script src="js/multislider.min.js"></script> -->
@@ -1636,7 +1734,6 @@
 
         // Intialize AOS
         AOS.init();
-
     </script>
 
 
