@@ -38,7 +38,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: rgb(5,69,65);
 }
 
 h1 {
@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-    color: #633991;
+    color: rgb(5,69,65);
     font-size: 33px;
     font-weight: 500;
 }
@@ -65,13 +65,18 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #12aaa0;
 }
-
 h5 {
     font-size: 28px;
     font-weight: 300;
     color: #633991;
+    margin-bottom: 0.7rem;
+}
+.h5account {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(5,69,65);
     margin-bottom: 0.7rem;
 }
 
@@ -112,16 +117,16 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #054541 0%, #15948d 100%);
+    background-image: -webkit-linear-gradient( 122deg, #054541 0%, #15948d 100%);
+    background-image: -ms-linear-gradient( 122deg, #054541 0%, #15948d 100%);
+    background-image: linear-gradient( 122deg, #054541 0%, #15948d 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
     font-size: 1rem;
-    padding: 1rem 1.5rem;
+    
 }
 
 
@@ -132,7 +137,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
+    background-image: linear-gradient( 122deg, #054541 0%, #15948d 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -140,8 +145,8 @@ p.lead {
 .btn-primary:hover{
     background: #FFF;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
-    color: #fd378e;
-    border: 1px solid  #fd378e;
+    color: #054541 !important;
+    border: 1px solid  #054541;
 }
 
 .btn-light {
@@ -150,7 +155,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #633991;
+    color: #26e7dc;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -454,10 +459,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #22d4cb 0%, #25e4da 100%);
+    background-image: -webkit-linear-gradient( 122deg, #22d4cb 0%, #25e4da 100%);
+    background-image: -ms-linear-gradient( 122deg, #22d4cb 0%, #25e4da 100%);
+    background-image: linear-gradient( 122deg, #22d4cb 0%, #25e4da 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -517,15 +522,15 @@ header {
     padding: 1rem 1rem;
     border-color: #faf6fb #faf6fb #FFF;
     font-size: 19px;
-    color: #b5a4c8;
+    color: #1dbdb5;
     background: #f5eff7;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #23d9cf #faf6fb #FFF;
+    color: #128882;
 }
 
 
