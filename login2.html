@@ -229,6 +229,7 @@
 
 
 
+    <!-- Login -->
 
     <div class="container" id="login-form-div">
         <div class="row" data-aos="fade-up-left" data-aos-duration="3000">
@@ -259,7 +260,7 @@
                                     </div>
                                     <button class="btn btn-primary btn-lg btn-block" type='submit' style="float:right;">Login</button>
                                     <br>
-                                    <p class="pt-5"> Don't have an account? <span id="register-here">Register here</span></span>
+                                    <p class="pt-5"> Don't have an account?  <span id="register-here"> Register here</span></span>
                                 </form>
                             </div>
                         </div>
@@ -268,13 +269,14 @@
 
             </div>
 
-            <div class="col-md-6 order-1 login-img" data-aos="fade-up-right" data-aos-duration="3000">
+            <div class="col-md-6 order-1 login-img d-none d-sm-block d-sm-none d-md-block" data-aos="fade-up-right" data-aos-duration="3000">
                 <img src="images/illustrations/login.webp" alt="perspective phone" class="img-fluid" width="500px"
                     height="500px">
             </div>
         </div>
     </div>
 
+    <!-- Register -->
     <div class="container" id="register-form-div">
         <div class="row" data-aos="fade-up-left" data-aos-duration="3000">
             <div class="col-md-6 order-2">
@@ -328,7 +330,7 @@
 
             </div>
 
-            <div class="col-md-5 offset-1 order-1 register-img" data-aos="fade-up-right" data-aos-duration="3000">
+            <div class="col-md-5 offset-1 order-1 register-img d-none d-sm-block d-sm-none d-md-block" data-aos="fade-up-right" data-aos-duration="3000">
                 <img src="images/illustrations/register2.webp" alt="perspective phone" class="img-fluid" width="400px"
                     height="400px">
             </div>
@@ -391,25 +393,29 @@
             $(this).find(".question-chevron").toggleClass("hidden")
         })
 
-
+        // get IDs of login-section, register-section and button
         var registerForm = document.querySelector('#register-form-div');
         var loginForm = document.querySelector('#login-form-div');
         var registerHere = document.querySelector('#register-here');
         var loginHere = document.querySelector('#login-here');
-        function formSwitch() {
+
+        //Hides login form
+        function registerSwitch() {
             //debugger
             registerForm.style.display = 'block';
             loginForm.style.display = 'none';
         }
 
-        function formSwitch2() {
+        //Hides register form
+        function loginSwitch() {
             //debugger
             registerForm.style.display = 'none';
             loginForm.style.display = 'block';
         }
 
-        registerHere.addEventListener('click', formSwitch);
-        loginHere.addEventListener('click', formSwitch2);
+        //calls loginSwitch and registerSwitch functions on click of any the buttons
+        registerHere.addEventListener('click', registerSwitch);
+        loginHere.addEventListener('click', loginSwitch);
     </script>
 
 
