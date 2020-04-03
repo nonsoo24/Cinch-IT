@@ -4,7 +4,7 @@
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -42,10 +42,11 @@ a:focus {
 }
 
 h1 {
-    font-size: 60px;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 700;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+    margin-top: 70px;
 }
 
 h2 {
@@ -126,7 +127,7 @@ p.lead {
     padding: 0.6rem 2rem;
     border: 0;
     font-size: 1rem;
-    
+
 }
 
 
@@ -180,6 +181,9 @@ p.lead {
     margin-bottom: 3rem;
 }
 
+.tagline{
+    font-size: 1.5rem;
+}
 /* NAVBAR
 ----------------------*/
 
@@ -284,10 +288,22 @@ p.lead {
   @media (max-width:767px) {
     h1 {
         font-size: 40px;
+        margin-top: 0px;
     }
 
     h2 {
         font-size: 30px;
+    }
+
+    .tagline{
+        font-size: 14px;
+    }
+    .solve{
+        order: 2;
+    }
+
+    .pics{
+        order: 1;
     }
 }
 
